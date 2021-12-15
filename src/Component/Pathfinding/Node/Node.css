@@ -1,0 +1,18 @@
+.element
+{
+    background-color: #d1d0d06e;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000000;
+    color:white;
+}
+
+.red
+{
+    background-color: #ff0000;
+}
+
+.green
+{
+    background-color: #84b684;
+}
