@@ -1,0 +1,85 @@
+.Wrapper
+{
+    background:teal;
+    width: 100%;
+    padding: 5px 0 0 0;
+    color: white;
+  
+}
+
+.Wrapper > h2
+{
+    text-transform: uppercase;
+}
+
+.Legend
+{
+    background: rgb(68, 99, 99);
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Legend-item
+{
+    /* background:red; */
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+
+
+.text
+{
+    padding-top: 10px;
+}
+
+.start-node
+{
+    background: green;
+    color: white;
+   
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-node
+{
+    background: red;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.node-wall {
+    background-color: rgb(10, 34, 44);
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid white;
+    
+}
+
+.shortest-path
+{
+    background-color: rgb(255, 254, 106);
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+
+.visited-node
+{
+    background-color: rgba(0, 190, 218, 0.75);
+    width: 2rem;
+    height: 2rem;
+}
