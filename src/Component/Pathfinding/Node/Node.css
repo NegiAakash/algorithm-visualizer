@@ -18,14 +18,18 @@
 
   
   .node-finish {
+    text-align: center;
     background-color: red;
   }
   
   .node-start {
+    text-align: center;
+
     background-color: green;
   }
   
   .node-visited {
+    
     background-color: rgba(0, 190, 218, 0.75); 
     animation-name: visitedAnimation;
     animation-duration: 1.5s;
@@ -72,6 +76,8 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-play-state: running;
+    text-align: center;
+
   }
   
   @keyframes shortestPath {

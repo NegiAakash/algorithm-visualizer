@@ -31,7 +31,8 @@ A react app made for visualizing various algorithms (mostly path finding algorit
 
 ## TODO
 
-- Reset functionality for resetting the algorithm and grid.
+- ~~Reset functionality for resetting the algorithm and grid.~~ ✅
 - Pause functionality.
+- Speed controls for algorithm.
 - Add other path finding algorithms.
 - Improve the UI.

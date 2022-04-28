@@ -10,6 +10,7 @@
 .Wrapper > h2
 {
     text-transform: uppercase;
+    margin-left: 4rem;
 }
 
 .Legend
@@ -25,6 +26,8 @@
     /* background:red; */
     color: white;
     display: flex;
+    display: none;
+
     flex-direction: column-reverse;
     align-items: center;
 }
