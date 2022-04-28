@@ -33,9 +33,21 @@ export default function Pathfinding() {
     };
   };
 
+  // SECTION 1: To create new node and set its properties.
+  const clearGrid = (col = 50, row = 20) => {
+    const newG = grid;
+    newG.forEach((row) => {
+      row.forEach((node) => {
+        node.isVisited = false;
+        node.isWall = false;
+      });
+    });
+    setGrid(newG);
+    return;
+  };
+
   // SECTION 5: To handle mouse events for creating wall.
   const handleMouseDown = (row, col) => {
-    // console.log(grid[row][col]);
     const newGrid = getNewGridWithWallToggled(row, col);
     setGrid(newGrid);
     setMouseIsPressed(true);
@@ -108,6 +120,9 @@ export default function Pathfinding() {
     <div>
       <button className="btn-visualize" onClick={visualizeDijkstra}>
         Visualize
+      </button>
+      <button className="btn-clear" onClick={clearGrid}>
+        Clear
       </button>
       <div className="grid">
         {/* SECTION 4: Iterating over rows. */}
